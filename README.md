@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Binar Academy Platinum Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built by FER Student Wave-1
 
 ## Available Scripts
 
