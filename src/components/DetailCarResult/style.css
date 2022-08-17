@@ -1,0 +1,92 @@
+/*_ index css */
+
+.detail__section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail__hero {
+  width: 100%;
+  background-color: var(--clr-variant);
+  height: 200px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+
+.detail__result__container {
+  width: 1042px;
+  min-height: 300px;
+  display: flex;
+  margin: 3rem auto 0;
+  gap: 24px;
+}
+
+.detail__result__info {
+  width: 605px;
+  border-radius: var(--bora-lg);
+  padding: 2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.detail__result__car {
+  width: 405px;
+  height: 435px;
+  border-radius: var(--bora-lg);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.detail__result__car h1 {
+  font-size: 1rem;
+}
+
+.detail__result__total-price {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail__result__button-cari-mobil {
+  display: flex;
+  position: absolute;
+  left: -50px;
+  top: 200px;
+}
+
+.detail__result__button-cari-mobil button {
+  border-radius: var(--bora-sm);
+  margin: auto;
+}
+
+.detail__result__button-cari-mobil button:hover {
+  background: transparent;
+}
+
+/*_ data css */
+.DataDetailCar__section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.DataDetailCar__section h4 {
+  margin: 1rem 0;
+}
+
+.DataDetailCar__section li {
+  list-style: circle;
+  font-weight: var(--fw-regular);
+  line-height: 1.6;
+}
+
+.DataDetailCar__refund h4 {
+  margin: 0;
+  padding: 0;
+}

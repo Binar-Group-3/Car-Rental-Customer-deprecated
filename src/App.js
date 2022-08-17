@@ -1,14 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import DetailCar from "./pages/DetailCar";
+import Home from "./pages/Home";
+import SearchCars from "./pages/SearchCars";
+import "./App.css";
+import React from "react";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Ini adalah branch Development</h1>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/carimobil/" element={<SearchCars />} />
+        <Route path="/detailmobil/:id" element={<DetailCar />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
