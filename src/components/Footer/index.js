@@ -26,8 +26,8 @@ const Footer = (props) => {
             <h4>Connect with us</h4>
             <ul>
               {socialMediaLogo.map((item) => (
-                <li>
-                  <a href="#">{item}</a>
+                <li key={item.id}>
+                  <a href="#">{item.icon}</a>
                 </li>
               ))}
             </ul>

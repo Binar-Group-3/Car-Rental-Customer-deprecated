@@ -21,7 +21,7 @@ const Services = (props) => {
             <div className="services__checklist">
               <div>
                 {checkIcon5.map((item) => (
-                  <ul>
+                  <ul key={item.id}>
                     <li>{item}</li>
                   </ul>
                 ))}

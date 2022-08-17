@@ -12,10 +12,10 @@ import { strengthCard } from "../../components/Strength/data";
 import { faq } from "../../components/Faq/data";
 import { dataTestimoni } from "../../components/Testimonial/data";
 import { NavMenu } from "../../components/Navigation/data";
+import { socialMediaLogo } from "../../components/Footer/data";
 
 import {
   checkIcon5,
-  socialMediaLogo,
   ButtonSewa,
   angleLeftIcon,
   angleRightIcon,
