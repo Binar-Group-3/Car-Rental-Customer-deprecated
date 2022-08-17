@@ -2,17 +2,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheck,
-  faEnvelope,
   faAngleLeft,
   faAngleRight,
   faUserGroup,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-  faTwitch,
-} from "@fortawesome/free-brands-svg-icons";
 
 //# buttons
 const ButtonSewa = [<button className="button">Mulai Sewa Mobil</button>];
@@ -32,18 +25,8 @@ const angleLeftIcon = <FontAwesomeIcon icon={faAngleLeft}></FontAwesomeIcon>;
 const angleRightIcon = <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>;
 const userGroupIcon = <FontAwesomeIcon icon={faUserGroup}></FontAwesomeIcon>;
 
-//# socialmedia logo
-const socialMediaLogo = [
-  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faTwitch}></FontAwesomeIcon>,
-];
-
 export {
   checkIcon5,
-  socialMediaLogo,
   ButtonSewa,
   ButtonCari,
   ButtonPilih,

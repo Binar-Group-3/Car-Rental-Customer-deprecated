@@ -4,11 +4,8 @@ import axios from "axios";
 import Navigation from "../../components/Navigation";
 import DetailCarResult from "../../components/DetailCarResult";
 import { NavMenu } from "../../components/Navigation/data";
-import {
-  socialMediaLogo,
-  userGroupIcon,
-  angleLeftIcon,
-} from "../../const/staticData";
+import { socialMediaLogo } from "../../components/Footer/data";
+import { userGroupIcon, angleLeftIcon } from "../../const/staticData";
 import Footer from "../../components/Footer";
 
 const Car = () => {

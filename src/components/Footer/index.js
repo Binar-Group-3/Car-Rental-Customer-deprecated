@@ -15,8 +15,8 @@ const Footer = (props) => {
           <div className="footer__navigation">
             <ul>
               {NavMenu.map((item) => (
-                <li>
-                  <a href="#">{item}</a>
+                <li key={item.id}>
+                  <a href="#">{item.menu}</a>
                 </li>
               ))}
             </ul>

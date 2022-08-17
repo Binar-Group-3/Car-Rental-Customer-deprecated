@@ -4,7 +4,8 @@ import Footer from "../../components/Footer";
 import SearchBar from "../../components/SearchBar";
 import SearchCarResult from "../../components/SearchCarResult";
 import { NavMenu } from "../../components/Navigation/data";
-import { socialMediaLogo, ButtonPilih } from "../../const/staticData";
+import { socialMediaLogo } from "../../components/Footer/data";
+import { ButtonPilih } from "../../const/staticData";
 
 import { useEffect, useState } from "react";
 import axios from "axios";

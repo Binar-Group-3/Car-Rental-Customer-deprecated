@@ -34,7 +34,7 @@ const Navigation = (props) => {
                   <nav className="primary__navigation">
                     <ul className="nav__list">
                       {NavMenu.map((item) => (
-                        <li>{item}</li>
+                        <li key={item.id}>{item.menu}</li>
                       ))}
                     </ul>
                   </nav>
