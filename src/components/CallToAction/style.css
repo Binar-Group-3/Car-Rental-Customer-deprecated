@@ -29,7 +29,7 @@
   margin: 0 auto;
 }
 
-/* _ Responsive Breakpoints */
+/*_ Responsive Breakpoints */
 @media screen and (max-width: 600px) {
   .cta__container {
     width: 328px;
