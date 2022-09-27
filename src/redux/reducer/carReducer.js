@@ -1,4 +1,4 @@
-import TYPES from "../type"
+import TYPES from "../types"
 
 const initState = {
   car: {},
